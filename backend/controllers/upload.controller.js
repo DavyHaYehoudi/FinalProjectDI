@@ -29,7 +29,7 @@ module.exports.uploadProfil = async (req, res) => {
     req.file.stream,
     fs.createWriteStream(
       // `${__dirname}/../client/public/uploads/profil/${fileName}`
-      `${__dirname}/../frontend/public/uploads/profil/${fileName}`
+      `${__dirname}/../../frontend/public/uploads/profil/${fileName}`
     )
   );
   // /Users/davy.mac/Desktop/revisionNode/frontend/src/uploads/imagesFrontend/erase.svg

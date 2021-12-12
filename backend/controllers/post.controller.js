@@ -35,7 +35,7 @@ module.exports.createPost = async (req,res)=>{
           req.file.stream,
           fs.createWriteStream(
             // `${__dirname}/../client/public/uploads/posts/${fileName}`
-            `${__dirname}/../frontend/public/uploads/posts/${fileName}`
+            `${__dirname}/../../frontend/public/uploads/posts/${fileName}`
           )
         );
       }
