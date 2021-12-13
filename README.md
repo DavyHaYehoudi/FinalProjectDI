@@ -16,3 +16,5 @@ TOKEN_SECRET= your random secret key
 Front config :
 Create a .env file within the server URL :
 REACT_APP_API_URL=http://localhost:5000/ your server url
+
+<img width="1306" alt="Capture d’écran 2021-12-13 à 11 24 30" src="https://user-images.githubusercontent.com/79283100/145786078-b503dfd8-9686-456f-8855-40b6244f1ca9.png">
