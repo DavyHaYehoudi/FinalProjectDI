@@ -72,7 +72,7 @@ const handleRegister = async (e) => {
                     type='text'
                     name='pseudo'
                     id='pseudo'
-                    autocomplete='off'
+                    autoComplete='off'
                     onChange = { e => setPseudo(e.target.value) }
                     value= { pseudo }
                     />
@@ -84,7 +84,7 @@ const handleRegister = async (e) => {
                     type='text'
                     name='email'
                     id='email' 
-                    autocomplete='off'
+                    autoComplete='off'
                     onChange = { e => setEmail(e.target.value) }
                     value= { email }
                     />

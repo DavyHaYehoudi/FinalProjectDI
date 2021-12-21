@@ -41,7 +41,7 @@ const handleLogin = e => {
                  type='text'
                  name='email'
                  id='email'
-                 autocomplete='off'
+                 autoComplete='off'
                  onChange={ e => setEmail(e.target.value)} 
                  value= { email } />
             <br/>
@@ -52,7 +52,7 @@ const handleLogin = e => {
                  type='password'
                  name='password'
                  id='password'
-                 autocomplete='off'
+                 autoComplete='off'
                  onChange={ e => setPassword(e.target.value)}
                  value= { password } />
             <div className='password error'></div>
